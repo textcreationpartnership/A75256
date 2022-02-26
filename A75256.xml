@@ -1,0 +1,396 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An account of the design of printing about 3000 Bibles in Irish, with the psalms of David in metre, for the use of the highlanders.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1690</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 8 KB of XML-encoded text transcribed from 2 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A75256</idno>
+            <idno type="STC">Wing A274A</idno>
+            <idno type="STC">ESTC R225178</idno>
+            <idno type="EEBO-CITATION">47682789</idno>
+            <idno type="OCLC">ocm 47682789</idno>
+            <idno type="VID">172747</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A75256)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 172747)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2648:2)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An account of the design of printing about 3000 Bibles in Irish, with the psalms of David in metre, for the use of the highlanders.</title>
+               </titleStmt>
+               <extent>1 sheet ([2] p.).   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London? :</pubPlace>
+                  <date>1690?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Place and date of publication from Wing (2nd ed.).</note>
+                  <note>Reproduction of original in: Christ Church (University of Oxford). Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible --  Publication and distribution --  Great Britain --  Early works to 1800.</term>
+               <term>Broadsides --  England --  London --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-08</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2012-08</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb facs="tcp:172747:1" rendition="simple:additions"/>
+            <head>An Account of the Deſign of Printing about 3000 Bibles in <hi>Iriſh,</hi> with the Pſalms of <hi>David</hi> in Metre, for the uſe of the <hi>Highlanders.</hi>
+            </head>
+            <p>THE Inhabitants of the <hi>Highlands</hi> of <hi>Scotland,</hi> have never had the Bible in their own Language, which is the <hi>Iriſh:</hi> Some endeavours have formerly been uſed in <hi>Scotland,</hi> to have it Printed in that Language, but hitherto they have proved unſucceſsful.</p>
+            <p>Of late, the Honourable, Learned, and Pious Mr. <hi>Boyle</hi> hath, at great charge, cauſed to be Printed 500 Bibles in <hi>Iriſh,</hi> which were deſigned for <hi>Ireland,</hi> and accordingly moſt part of them, eſpecially the New-Teſtaments, were by him ſent thither: Of the Books of the Old Teſta<g ref="char:EOLhyphen"/>ment which remained, he ſent above 200 into the <hi>Highlands,</hi> which made one Book for each Pariſh, there being ſo many Pariſhes in the <hi>Highlands,</hi> and thoſe of very large extent, containing great Numbers of People.</p>
+            <p>The ſame Excellent and Worthy Perſon, was at the Charge of Printing for the uſe of the <hi>Highlanders,</hi> 3000 Catechiſms and Prayer-Books in <hi>Iriſh,</hi> with ſome Paſſages of Scripture, containing the prin<g ref="char:EOLhyphen"/>cipal Heads of the Chriſtian Religion, they never having had any ſuch helps before. He hath alſo lately given money to reprint as many more.</p>
+            <p>All ſorts of People among them expreſs an extraordinary joy upon occaſion of this great and unexpected Charity to their Souls, and do earneſtly deſire to have another Impreſſion of the Bible in <hi>Iriſh</hi> for themſelves, and for their Children, that by Reading, and Hearing of that Sacred Book, they may be delivered from Ignorance and Barbarity.</p>
+            <p>The Money collected for carrying on the Work, is to be depoſited with the Reverend Dr <hi>Horneck,</hi> who hath been pleaſed Charitably to accept of the trouble of receiving it.</p>
+            <p>Several worthy Perſons both of <hi>England</hi> and <hi>Scotland,</hi> have promi<g ref="char:EOLhyphen"/>ſed their Concurrence, and ſignified the Proportions they intend to give, of whom alſo not a few have already ſent their Money to Dr. <hi>Horneck,</hi> at his Houſe in <hi>Exeter-ſtreet,</hi> who hath a Liſt of their Names, with the Sums of Money they have Subſcribed or ſent.</p>
+            <p>The Perſon imployed for the Printing of this Bible, is <hi>Robert Eve<g ref="char:EOLhyphen"/>ringham,</hi> at the <hi>Seven Stars</hi> in <hi>Ave mary-Lane,</hi> nigh <hi>Pater-noſter Row.</hi>
+            </p>
+            <p>There is a Miniſter to come ſhortly from the <hi>Highlands,</hi> to attend the Preſs; who likewiſe, by the Advice and with the Concur<g ref="char:EOLhyphen"/>rence of other Diſcreet and Pious perſons, both of the Laity and Cler<g ref="char:EOLhyphen"/>gy in <hi>Scotland,</hi> is to diſtribute among the poorer ſort of <hi>Highlanders,</hi> thoſe Books which are ſubſcribed for by ſome Charitable Perſons of this Kingdom.</p>
+            <p>As for the Books which are Subſcribed for by thoſe of <hi>Scotland,</hi> they are likewiſe to be beſtowed on poor People, ſo far as is needful; and as for the Money which ſhall be got from thoſe <hi>Highlanders,</hi> who are able to buy Books for themſelves, it is to be kept in ſtore as a Fund for another Impreſſion of the Bible in <hi>Iriſh,</hi> or for Printing ſome ſuch uſeful Treatiſe in that Language, as ſhall afterwards be thought moſt proper.</p>
+            <p>
+               <table>
+                  <pb facs="tcp:172747:2"/>
+                  <head>The Names of thoſe who have given, or promiſed to give Moneys, towards the Printing the Bible in <hi>Iriſh</hi> for the uſe of the <hi>Highlanders.</hi>
+                  </head>
+                  <row>
+                     <cell role="label">B</cell>
+                     <cell role="label">l.</cell>
+                     <cell role="label">s.</cell>
+                     <cell role="label">d.</cell>
+                  </row>
+                  <row>
+                     <cell>THE Honourable <hi>Robert Boyle</hi>
+                     </cell>
+                     <cell>08</cell>
+                     <cell>06</cell>
+                     <cell>08</cell>
+                  </row>
+                  <row>
+                     <cell>Sir <hi>John Burgoigne</hi>
+                     </cell>
+                     <cell>04</cell>
+                     <cell>03</cell>
+                     <cell>04</cell>
+                  </row>
+                  <row>
+                     <cell>Doctor <hi>Burnet</hi>
+                     </cell>
+                     <cell>10</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. <hi>Brown</hi> of <hi>Arlſey.</hi>
+                     </cell>
+                     <cell>04</cell>
+                     <cell>03</cell>
+                     <cell>04</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. <hi>Bedford,</hi> Miniſter of <hi>Henlow</hi>
+                     </cell>
+                     <cell>01</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell role="label">C</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>The Counteſs Dowager of <hi>Caſſilis</hi>
+                     </cell>
+                     <cell>05</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>Mrs. <hi>Cheek</hi>
+                     </cell>
+                     <cell>10</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. <hi>Cranſton,</hi> Lecturer of <hi>Ryegate</hi>
+                     </cell>
+                     <cell>01</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell role="label">E</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Mr. <hi>Edwards</hi> of <hi>Arlſey</hi>
+                     </cell>
+                     <cell>02</cell>
+                     <cell>03</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell role="label">G</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Mr. <hi>Garden,</hi> Miniſter of <hi>Arlſey</hi>
+                     </cell>
+                     <cell>02</cell>
+                     <cell>01</cell>
+                     <cell>08</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. <hi>Gibs,</hi> Miniſter of <hi>Hitchin</hi>
+                     </cell>
+                     <cell>01</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell role="label">H.</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>The Dutcheſs of <hi>Hamilton</hi>
+                     </cell>
+                     <cell>06</cell>
+                     <cell>06</cell>
+                     <cell>06</cell>
+                  </row>
+                  <row>
+                     <cell>Doctor <hi>Horneck</hi>
+                     </cell>
+                     <cell>04</cell>
+                     <cell>03</cell>
+                     <cell>04</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. <hi>Hume,</hi> Miniſter of <hi>Hales-Owen</hi>
+                     </cell>
+                     <cell>04</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell role="label">K</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>The Earl of <hi>Kent</hi>
+                     </cell>
+                     <cell>08</cell>
+                     <cell>06</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. <hi>Kirkwood</hi>
+                     </cell>
+                     <cell>04</cell>
+                     <cell>03</cell>
+                     <cell>04</cell>
+                  </row>
+                  <row>
+                     <cell role="label">L</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Sir <hi>James Langham</hi>
+                     </cell>
+                     <cell>04</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>Mrs. <hi>Lloyd</hi>
+                     </cell>
+                     <cell>02</cell>
+                     <cell>10</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell role="label">P</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Doctor <hi>Patrick,</hi> and ſome of this Friends</cell>
+                     <cell>20</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell role="label">R</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>The Lady <hi>Ranalaugh</hi>
+                     </cell>
+                     <cell>05</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell role="label">S</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>The Lady <hi>Saint-Johns,</hi> and ſome of her Friends</cell>
+                     <cell>48</cell>
+                     <cell>07</cell>
+                     <cell>06</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. <hi>Skinner</hi> of <hi>Hitchin</hi>
+                     </cell>
+                     <cell>01</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. <hi>Sell,</hi> Miniſter of <hi>Hinckſworth</hi>
+                     </cell>
+                     <cell>01</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. <hi>Stephens,</hi> Miniſter at <hi>Sutton</hi>
+                     </cell>
+                     <cell>01</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>Mr. <hi>Sibbald,</hi> Miniſter of <hi>Clot-Hall</hi>
+                     </cell>
+                     <cell>02</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell role="label">T</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Doctor <hi>Teniſon</hi>
+                     </cell>
+                     <cell>10</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell role="label">V</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Mr. <hi>Vigorous</hi> of <hi>Arlſey</hi>
+                     </cell>
+                     <cell>02</cell>
+                     <cell>03</cell>
+                     <cell>00</cell>
+                  </row>
+               </table>
+            </p>
+            <p>Beſides theſe above-mentioned, we expect a great many more both here and in <hi>Scotland.</hi>
+            </p>
+            <p>There are ſeveral Eminent Perſons who intend to be active in the carrying on of this Work, whoſe Names we ſhall very ſhortly inſert.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
